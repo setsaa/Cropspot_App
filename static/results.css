@@ -1,0 +1,57 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+
+.container {
+    max-width: 600px; /* Limit the width of the content */
+    margin: 20px auto; /* Center the container horizontally */
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Subtle shadow */
+}
+
+h1 {
+    color: #333;
+}
+
+.predictions {
+    margin-bottom: 20px;
+}
+
+#detected {
+    color: red;
+}
+
+
+.prediction-item {
+    background-color: #f9f9f9;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    text-align: left; /* Align text to the left within each item */
+}
+
+.label {
+    font-weight: bold;
+}
+
+.retake-button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.no-predictions {
+    color: #777;
+}
